@@ -2,6 +2,7 @@
 import {useState} from 'react'
 import {Navigate, useNavigate} from 'react-router-dom'
 import Cookies from 'js-cookie'
+import loginLogo from '../../assets/login-logo.png'
 
 import endpoints from '../endpoints'
 
@@ -62,7 +63,7 @@ const Login = () => {
     <div className="login-container">
       <form className="form-container" onSubmit={submitForm}>
         <img
-          src="https://assets.ccbp.in/frontend/react-js/movies-app-login-img.png"
+          src={loginLogo}
           alt="login website logo"
           className="login-logo"
         />

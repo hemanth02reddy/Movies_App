@@ -16,9 +16,9 @@
 }
 
 .website-logo {
-  width: 120px;
-  height: 40px;
-  object-fit: cover;
+  width: 140px;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav-menu {

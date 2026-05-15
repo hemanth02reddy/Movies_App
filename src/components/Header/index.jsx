@@ -1,5 +1,6 @@
 // Write your code here
-import hero from '../../assets/hero.png'
+import websiteLogo from '../../assets/login-logo.png'
+import profileImage from '../../assets/profile.png'
 
 import {Link, NavLink, useNavigate, useLocation} from 'react-router-dom'
 
@@ -30,7 +31,7 @@ const Header = props => {
         <div className="header-left">
           <Link to="/">
             <img
-              src={hero}
+              src={websiteLogo}
               alt="website logo"
               className="website-logo"
             />
@@ -85,7 +86,7 @@ const Header = props => {
 
           <Link to="/account">
             <img
-              src={hero}
+              src={profileImage}
               alt="profile"
               className="profile-image"
             />
