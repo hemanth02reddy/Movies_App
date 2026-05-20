@@ -16,7 +16,7 @@ const MovieDetails = () => {
 
   useEffect(() => {
     getMovieDetails()
-  }, [])
+  }, [id])
 
   const getMovieDetails = async () => {
     const jwtToken =

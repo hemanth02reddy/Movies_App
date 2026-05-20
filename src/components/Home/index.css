@@ -2,11 +2,13 @@
 .home-container {
   background-color: #181818;
   min-height: 100vh;
+  max-width:100%;
   color: white;
 }
 
 .home-banner {
   min-height: 70vh;
+  max-width: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -48,4 +50,5 @@
   font-size: 24px;
   width: 50%;
   line-height: 1.5;
+  text-align: center;
 }
